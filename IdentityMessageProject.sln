@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityMessageProject.EntityLayer", "IdentityMessageProject.EntityLayer\IdentityMessageProject.EntityLayer.csproj", "{86E334C2-04A4-47FE-9037-6A3182389275}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityMessageProject.DataAccessLayer", "IdentityMessageProject.DataAccessLayer\IdentityMessageProject.DataAccessLayer.csproj", "{FC32BBAF-28F9-4A85-8891-6BD741CEA56D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{86E334C2-04A4-47FE-9037-6A3182389275}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86E334C2-04A4-47FE-9037-6A3182389275}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86E334C2-04A4-47FE-9037-6A3182389275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC32BBAF-28F9-4A85-8891-6BD741CEA56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC32BBAF-28F9-4A85-8891-6BD741CEA56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC32BBAF-28F9-4A85-8891-6BD741CEA56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC32BBAF-28F9-4A85-8891-6BD741CEA56D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
