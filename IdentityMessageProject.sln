@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityMessageProject.EntityLayer", "IdentityMessageProject.EntityLayer\IdentityMessageProject.EntityLayer.csproj", "{86E334C2-04A4-47FE-9037-6A3182389275}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86E334C2-04A4-47FE-9037-6A3182389275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E334C2-04A4-47FE-9037-6A3182389275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E334C2-04A4-47FE-9037-6A3182389275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E334C2-04A4-47FE-9037-6A3182389275}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29E0589C-36E3-43A7-B34B-E09BBFB5047F}
+	EndGlobalSection
+EndGlobal
