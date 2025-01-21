@@ -11,10 +11,11 @@ namespace IdentityMessageProject.DataAccessLayer.Context
 {
     public class MessageContext : IdentityDbContext<AppUser, AppRole, int>
     {
-        //db server namze --- DESKTOP-BIP870C
+        //db server name --- DESKTOP-BIP870C
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-BIP870C;initial catalog=MessageDb;integrated security=true; TrustServerCertificate=true");
+            //baglantı adresi
+            optionsBuilder.UseSqlServer("Server=DESKTOP-BIP870C;initial catalog=IdentityMessageDb;integrated security=true;");
         }
 
         //veritabanına yansıtmak ıstedıgımız tabloların ısmını yazıyoruz

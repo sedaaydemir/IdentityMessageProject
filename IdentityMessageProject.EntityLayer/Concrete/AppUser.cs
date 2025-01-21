@@ -15,6 +15,6 @@ namespace IdentityMessageProject.EntityLayer.Concrete
 
         //bıre cok ılıskı ıle mesaj tablosu
         public List<Message> Messages { get; set; }//bır kullanıcı bırden cok mesaj ıletebilir
-        //public List<Message> ReceivedMessages { get; set; }//bır kullanıcı bırden cok mesaj alabilir
+        
     }
 }

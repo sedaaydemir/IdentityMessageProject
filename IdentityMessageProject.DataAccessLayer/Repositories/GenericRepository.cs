@@ -14,27 +14,31 @@ namespace IdentityMessageProject.DataAccessLayer.Repositories
         //sınıfın ıcıne interface'in metodlarını implemente ettim
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+           var value =  _messageContext.Set<T>().Find(id);
+            _messageContext.Set<T>().Remove(value);
+            _messageContext.SaveChanges();
         }
 
         public List<T> GetAll()
         {
-            throw new NotImplementedException();
+            return _messageContext.Set<T>().ToList();//gerıye deger dondurecek
         }
 
         public T GetById(int id)
         {
-            throw new NotImplementedException();
+            return _messageContext.Set<T>().Find(id);
         }
 
         public void Insert(T entity)
         {
-            throw new NotImplementedException();
+            _messageContext.Set<T>().Add(entity);
+            _messageContext.SaveChanges();
         }
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            _messageContext.Set<T>().Update(entity);
+            _messageContext.SaveChanges();
         }
     }
 }
