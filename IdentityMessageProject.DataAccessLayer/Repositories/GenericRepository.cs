@@ -11,6 +11,13 @@ namespace IdentityMessageProject.DataAccessLayer.Repositories
     public class GenericRepository<T> : IGenericDal<T> where T : class
     {
         private readonly MessageContext _messageContext;
+
+        //yapıcı metodu olusturuldu
+        public GenericRepository(MessageContext messageContext)
+        {
+            _messageContext = messageContext;
+        }
+
         //sınıfın ıcıne interface'in metodlarını implemente ettim
         public void Delete(int id)
         {

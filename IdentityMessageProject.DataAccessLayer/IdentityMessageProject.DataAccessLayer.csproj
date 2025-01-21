@@ -10,8 +10,4 @@
     <ProjectReference Include="..\IdentityMessageProject.EntityLayer\IdentityMessageProject.EntityLayer.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="EntityFramework\" />
-  </ItemGroup>
-
 </Project>
